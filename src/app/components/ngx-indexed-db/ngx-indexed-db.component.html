@@ -1,0 +1,19 @@
+<button (click)="get()">Get Data</button>
+<br /><br />
+<div>
+    <input type="text" [(ngModel)]="nameVal" placeholder="name" />
+    <input type="email" [(ngModel)]="email" placeholder="email" />
+    <button (click)="add()">Add</button>
+</div>
+<br />
+<div>
+    <input type="text" [(ngModel)]="key" placeholder="id" />
+    <input type="text" [(ngModel)]="nameVal" placeholder="name" />
+    <input type="email" [(ngModel)]="email" placeholder="email" />
+    <button (click)="update()">Update</button>
+</div>
+<br />
+<div>
+    <input type="text" [(ngModel)]="key" placeholder="id" />
+    <button (click)="delete()">Delete</button>
+</div>
